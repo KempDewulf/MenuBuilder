@@ -7,7 +7,7 @@ function init() {
 }
 
 function fetchMenu() {
-    fetch("http://165.232.126.113/api/random")
+    fetch("https://kempdewulf.me/api/random")
         .then((res) => res.json())
         .then((data) => {
             console.log(data);
